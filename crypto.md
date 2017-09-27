@@ -166,7 +166,7 @@ The simplest way to verifying the `primality` of a given number `n` is known as 
 Finding which `prime numbers` multiply together to make the original number.
 `````
 Calculate the prime factorization of 12.
-Prime Numbers: 1, 2, 3, 5, 7, 11, 13, 17, 23, ...
+Prime Numbers: 2, 3, 5, 7, 11, 13, 17, 19, 23, ...
 `````
 
 $$12 \div 2 = 6$$
@@ -182,7 +182,7 @@ $$12 = 2 \times 2 \times 3$$
 
 `````
 Calculate the prime factorization of 147.
-Prime Numbers: 1, 2, 3, 5, 7, 11, 13, 23, ...
+Prime Numbers: 2, 3, 5, 7, 11, 13, 17, 19, 23, ...
 `````
 
 $$147 \div 2 = 73.5$$
