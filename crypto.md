@@ -6,11 +6,6 @@
 
 > Knowing how a camera works does not make you a great photographer. Knowing what cryptographic designs are and how they work does not gives you proficiency in using cryptography.
 
-#
-#
-
-## Think as a Cryptographer does
-
 ---
 
 
@@ -449,8 +444,8 @@ func main() {
 `[Secure] https://....`
 #
 
-- Asymmetric Crypto (Authentication A.K.A _handshake_ w/ __AES__)
-- Symmetric Crypto (Data Transmition w/ __RSA__)
+- Asymmetric Crypto (Authentication A.K.A _handshake_ w/ __RSA__)
+- Symmetric Crypto (Data Transmition w/ __AES__)
 - Hashing (Integrity Check w/ __HMAC__)
 - __Relies on a set of trusted third-party certificate authorities__
 
@@ -571,6 +566,12 @@ console.log(decrypted);
 
 ---
 
+# `&security`
+
+Computer Security is in many ways, a superset of `Cryptology`, both are about designing and evaluating objects (systems or algorithms) intended to behave in certain ways even in the presence of an adversary.
+
+---
+
 # Professional Paranoia
 ###### You have to think like a malicious attacker to find weaknesses in your own work.
 
@@ -606,14 +607,43 @@ It doesn't matter how strong the other parts are.
 
 ###### Think about your users writing down their passwords in a sticky note...
 
-###### ... What if the Super Admin does that as well?
+###### ... What if the Super Admin does it?
 ---
 
 # The Weakest Link
 
 Adding cryptography to your systems without previous analysis will lead to failure.
 
-###### Imagine a reinforced titanium chain that locks your house door and an open window in the backyard at the same time.
+###### Think of a titanium-reinforced chain locking your house door and an open window in the backyard at the same time.
+
+---
+## Open Web Application Security [(OWASP)](https://www.owasp.org)
+###### Checklist Summary
+
+- SSL & TLS
+- Store hashes, not passwords.
+- Validate inputs (prevent code injections)
+- Trustworthy Frameworks & Libraries
+- Identify application entry points
+- Sensitive Data in client-side code (keys, credentials)
+- - [_Adobe's security team publishes private key_](https://bit-tech.net/news/tech/software/adobes-security-team-publishes-private-encryption-key/1/)
+- Encrypt sensitive data
+ 
+[OWASP Checklist](https://www.owasp.org/index.php/Web_Application_Security_Testing_Cheat_Sheet#The_Checklist)
+
+---
+
+## Phishing
+
+![](./images/reddit.png)
+
+---
+
+## Where to start?
+
+> What is your advice for teenagers that want to get a job in the cybersecurity field?. Should we focus only on one field like web exploatation, reversing, cryptography?.
+>> I recommend cryptology, if you can do it, you can do anything. 
+>> __Eugene Kaspersky__
 
 ---
 
